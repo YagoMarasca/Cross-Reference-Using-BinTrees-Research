@@ -22,12 +22,19 @@ Pode ser implementado em C, C++, C#, Java ou Python, desde que as referências e
 Cada nodo deverá conter a palavra, número de ocorrências e as referências para os dois filhos, mas pode conter outras informações necessárias para a realização das operações.
 A interface pode ser bem simples (textual), o importante é que as operações funcionem.
 As operações obrigatórias a serem implementadas pelo programa são:
-•	INSERE: permite a inserção de uma palavra do texto na ABP. Palavras não podem ser duplicadas, por isso contém também o número de ocorrências. Ao inserir uma palavra, seu número de ocorrências é inserido também. \n
-•	CONSULTA: consulta uma palavra no dicionário, informando seu número de ocorrências. \n
-•	REMOVE: remove uma palavra do dicionário, mantendo em ordem a ABP na qual ela estava situada.\n
-•	CONTA: retorna o número total de palavras do dicionário.\n
-•	CONTA_OCORRÊNCIAS: retorna o número total de ocorrências de todas as palavras (soma todos os contadores).\n
-•	EXIBE_PALAVRAS: exibe a lista das palavras do dicionário (só as palavras, ou com os respectivos contadores, em ordem alfabética (de A a Z).\n
-•	EXIBE_PALAVRAS_LETRA: exibe a lista das palavras do dicionário iniciadas por uma determinada letra (só as palavras ou com contadores), em ordem alfabética (de A a Z).\n
-•	MAIOR_NRO_OCORRENCIAS: exibe a palavra (ou as palavras) com maior número de ocorrências.\n
-•	UMA_OCORRENCIA: exibe, em ordem alfabética, as palavras que só tem uma ocorrência.\n
+•	INSERE: permite a inserção de uma palavra do texto na ABP. Palavras não podem ser duplicadas, por isso contém também o número de ocorrências. Ao inserir uma palavra, seu número de ocorrências é inserido também. 
+•	CONSULTA: consulta uma palavra no dicionário, informando seu número de ocorrências. 
+
+•	REMOVE: remove uma palavra do dicionário, mantendo em ordem a ABP na qual ela estava situada.
+
+•	CONTA: retorna o número total de palavras do dicionário.
+
+•	CONTA_OCORRÊNCIAS: retorna o número total de ocorrências de todas as palavras (soma todos os contadores).
+
+•	EXIBE_PALAVRAS: exibe a lista das palavras do dicionário (só as palavras, ou com os respectivos contadores, em ordem alfabética (de A a Z).
+
+•	EXIBE_PALAVRAS_LETRA: exibe a lista das palavras do dicionário iniciadas por uma determinada letra (só as palavras ou com contadores), em ordem alfabética (de A a Z).
+
+•	MAIOR_NRO_OCORRENCIAS: exibe a palavra (ou as palavras) com maior número de ocorrências.
+
+•	UMA_OCORRENCIA: exibe, em ordem alfabética, as palavras que só tem uma ocorrência.
